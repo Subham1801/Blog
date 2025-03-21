@@ -1,0 +1,19 @@
+  <img src="5723102.jpg" alt="<!-- DESCRIPTION -->" style="width:100%; height:100px; object-fit:cover; border-radius:15px; margin-bottom:30px;">
+
+
+
+  <br><b>Also Read</b></br>
+          
+          <br><a href="#" class="read-more">qwertyu</a></br>
+          <br><a href="#" class="read-more">qwertyu</a></br>
+          <br><a href="#" class="read-more">qwertyu</a></br>
+
+          <!-- Sample Blog 2 -->
+      <div class="blog-card">
+        <img src="https://via.placeholder.com/400x150" alt="Blog 2 Image" />
+        <div class="blog-content">
+          <h3 class="blog-title">Sample Blog Title Two</h3>
+          <div class="blog-meta">Uploaded: 2025-03-20 | 3 min read</div>
+          <div class="blog-preview">This preview gives a quick glance into the key points of the blog, enticing further reading.</div>
+          <a href="#readmore" class="read-more">Read More</a>
+        </div>
