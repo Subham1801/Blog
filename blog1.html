@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Friend or Foe?</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Sacramento&display=swap" rel="stylesheet">
+  <style>
+    /* Inherited Styles */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    html, body {
+      height: 100%;
+      font-family: 'Roboto', sans-serif;
+      color: #fff;
+      overflow-x: hidden;
+    }
+    .background {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: url('5723102.jpg') no-repeat center center fixed;
+      background-size: cover;
+      filter: brightness(0.5) blur(3px);
+      z-index: -1;
+    }
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding-bottom: 10px;
+    }
+    .logo a.handwriting {
+      font-family: 'Pacifico', cursive;
+      font-size: 2.5rem;
+      color: #fff;
+      text-decoration: none;
+    }
+    .logo span.siteby {
+      margin-left: 10px;
+      font-size: 1rem;
+    }
+    .share-btn {
+      background: #25d366;
+      color: #fff;
+      padding: 10px 15px;
+      border-radius: 20px;
+      text-decoration: none;
+      font-weight: bold;
+      transition: background 0.3s ease;
+    }
+    .share-btn:hover {
+      background: #1ebe5d;
+    }
+    nav {
+      margin: 20px 0;
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+    }
+    nav a {
+      background: rgba(255, 255, 255, 0.2);
+      color: #fff;
+      padding: 10px 20px;
+      border-radius: 25px;
+      text-decoration: none;
+      transition: background 0.3s ease;
+    }
+    nav a:hover {
+      background: rgba(255, 255, 255, 0.4);
+    }
+    footer {
+      text-align: center;
+      margin: 40px 0;
+      font-size: 1rem;
+    }
+
+    /* Blog Post Specific Styles */
+    .blog-container {
+      background: rgba(255, 255, 255, 0.9);
+      border-radius: 20px;
+      padding: 40px;
+      margin: 40px 0;
+      box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+    }
+    .blog-title {
+      color: #0073e6;
+      font-size: 2.8rem;
+      margin-bottom: 30px;
+      line-height: 1.2;
+    }
+    .blog-meta {
+      color: #666;
+      margin-bottom: 40px;
+      font-size: 0.9rem;
+    }
+    .blog-content {
+      color: #333;
+      line-height: 1.8;
+      font-size: 1.1rem;
+    }
+    .blog-content h2 {
+      color: #0073e6;
+      margin: 30px 0 15px;
+      font-size: 1.8rem;
+    }
+    .blog-content ol, .blog-content ul {
+      margin: 20px 0;
+      padding-left: 30px;
+    }
+    .blog-content li {
+      margin-bottom: 15px;
+    }
+    .highlight-box {
+      background: rgba(0, 115, 230, 0.1);
+      padding: 25px;
+      border-left: 4px solid #0073e6;
+      margin: 30px 0;
+      border-radius: 8px;
+    }
+    @media (max-width: 768px) {
+      .blog-container {
+        padding: 20px;
+        margin: 20px 0;
+      }
+      .blog-title {
+        font-size: 2rem;
+      }
+    }
+
+        .also-read {
+      margin: 50px 0;
+      padding: 30px 0;
+      border-top: 2px solid rgba(255, 255, 255, 0.1);
+    }
+    .also-read h2 {
+      color: #0073e6;
+      font-size: 2rem;
+      margin-bottom: 30px;
+      text-align: center;
+    }
+    .blog-card {
+      background: rgba(255, 255, 255, 0.9);
+      border-radius: 15px;
+      overflow: hidden;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      transition: transform 0.3s ease;
+    }
+    .blog-card:hover {
+      transform: translateY(-5px);
+    }
+    .thanks-section {
+      text-align: center;
+      margin: 40px 0 20px;
+      color: #666;
+      font-style: italic;
+      font-size: 1.1rem;
+    }
+  </style>
+</head>
+<body>
+  <div class="background"></div>
+  <div class="container">
+    <header>
+      <div class="logo">
+        <a href="index.html" class="handwriting">THINK ONCE</a>
+        <span class="siteby">Site by Subham</span>
+      </div>
+      <a href="https://api.whatsapp.com/send?text=Read%20Subham%27s%20Blogs%20-%20https://subhammohapatra.netlify.app/blog1.html" 
+   class="share-btn" 
+   target="_blank" 
+   rel="noopener noreferrer">Share</a>
+    </header>
+
+    <nav>
+      <a href="about.html">About Me</a>
+      <a href="donate.html">Donate</a>
+    </nav>
+
+    <div class="blog-container">
+      <h1 class="blog-title">Friend or Foe?</h1>
+      <div class="blog-meta">Published: 2025-03-21 | 5 min read</div>
+      
+      <div class="blog-content">
+        <h2>Friend or Foe?</h2>
+        <p>Have you ever paused to think about whether someone in your life is truly a friend or perhaps hiding a different side? In our daily lives, we often meet people who may help us, share our joys, or even bring challenges. This blog looks at the simple question: friend or foe?</p>
+
+        <h2>What Do We Mean by Friend or Foe?</h2>
+        <p>A friend is someone who stands by you, listens when you need to talk, and supports you through thick and thin. They share laughter, lend a helping hand, and are happy for your successes. A friend makes you feel safe and valued. On the other hand, a foe can be a person who might seem kind at first but later shows signs of hidden motives. Sometimes, a foe is not a person you can easily label as an enemy, but rather someone whose actions may hurt you or cause confusion.</p>
+
+
+        <h2>Understanding People: A Simple Guide</h2>
+        <ol>
+          <li><strong>Look at Their Actions:</strong> Consistent behavior patterns reveal true nature</li>
+          <li><strong>Listen to Your Heart:</strong> Gut feelings often sense what mind ignores</li>
+          <li><strong>Communication Is Key:</strong> Honest conversations clarify intentions</li>
+          <li><strong>Learn from Past Experiences:</strong> History often repeats its lessons</li>
+        </ol>
+
+        <h2>When a Friend Turns Foe</h2>
+        <p>It can be sad and confusing when someone you thought was a friend starts to act differently. It is important to:</p>
+        <ul>
+          <li>Stay calm: Take some time to understand what might have changed</li>
+          <li>Talk it out: Clear up misunderstandings through dialogue</li>
+          <li>Set boundaries: Protect your emotional space when needed</li>
+        </ul>
+
+          <p>Remember: True friendship withstands storms, while temporary connections fade like morning dew. Value those who stay consistent in both sunshine and rain.</p>
+
+         
+      </div>
+              <div class="thanks-section">
+          <p>Thank you for walking through these reflections with me. Your time and attention are deeply valued....</p>
+
+      
+        </div>
+      </div>
+    </div>
+    </div>
+
+    <footer>
+      <p><b>Site by Subham<b><p>
+    </footer>
+  </div>
+</body>
+</html>
